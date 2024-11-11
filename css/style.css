@@ -1,0 +1,410 @@
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+
+}
+h1 {
+    font-size: 80px;
+    font-family: Impact;
+  }
+  button{
+
+        width: 250px;
+        height: 80px;
+        background-color: blue !important;
+        color: white;
+  }
+  button:hover{
+    background-color:lawngreen !important;
+
+
+  }
+
+@font-face {
+    font-family:'Agdasima-700';
+    src: url(../fonts/Agdasima-Bold.ttf);
+    font-weight: 700;
+}
+.image{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url(../image/hero-bg.jpg);
+    background-position:center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    
+}
+.abdo,.uline,.as {
+    position: relative !important;
+    
+}
+
+.as:hover .as::after {
+    content: "" !important;
+    width: 60px !important;
+    height: 2px !important;
+    background-color:white !important;
+    position: absolute !important;
+    top: 95% !important;
+    left: 50% !important;
+    transform: translate(-50%,-50%) !important;
+   
+}
+.abdo::after {
+    content: "";
+    width: 50px;
+    height: 4px;
+    background-color: rgb(0, 120, 255);
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.uline::after {
+    content: "";
+    width: 100px;
+    height: 4px;
+    background-color: rgb(0, 120, 255);
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    transform: translate(-50%,-50%);
+}
+.w-30{
+    width: 30%;
+}
+.anmi{
+transition: all 1s;
+
+}
+.anmi::after{
+    content: '';
+    animation: ani 10s 1s infinite ;
+}
+
+@keyframes ani{
+
+
+1.25%{
+    content: "D|";
+}
+2.5%{
+    content: "De|";
+}
+3.75%{
+    content: "Des|";
+}
+5%{
+    content: "Desi|";
+}
+6.25%{
+    content: "Desig|";
+}
+7.5%{
+    content: "Design|";
+}
+8.75%{
+    content: "Designe|";
+}
+10%{
+    content: "Designer|";
+}
+11.25%{
+    content: "Designe|";
+}
+12.5%{
+    content: "Design|";
+}
+13.75%{
+    content: "Desig|";
+}
+15%{
+    content: "Desi|";
+}
+16.25%{
+    content: "Des|";
+}
+17.5%{
+    content: "De|";
+}
+18.75%{
+    content: "D|";
+}
+20%{
+    content: "|";
+}
+
+21.25%{
+    content: "D|";
+}
+22.5%{
+    content: "De|";
+}
+23.75%{
+    content: "Dev|";
+}
+25%{
+    content: "Deve|";
+}
+26.25%{
+    content: "Devel|";
+}
+27.5%{
+    content: "Develo|";
+}
+28.75%{
+    content: "Develop|";
+}
+30%{
+    content: "Develope|";
+}
+31.25%{
+    content: "Developer|";
+}
+32.5%{
+    content: "Develope|";
+}
+33.75%{
+    content: "Develop|";
+}
+35%{
+    content: "Develo|";
+}
+36.25%{
+    content: "Devel|";
+}
+37.5%{
+    content: "Deve|";
+}
+38.75%{
+    content: "Dev|";
+}
+40%{
+    content: "De|";
+}
+
+41.25%{
+    content: "D|";
+}
+42.5%{
+    content: "|";
+}
+43.75%{
+    content: "F|";
+}
+45%{
+    content: "Fr|";
+}
+46.25%{
+    content: "Fre|";
+}
+47.5%{
+    content: "Free|";
+}
+48.75%{
+    content: "Freel|";
+}
+50%{
+    content: "Freela|";
+}
+51.25%{
+    content: "Freelan|";
+}
+52.5%{
+    content: "Freelanc|";
+}
+53.75%{
+    content: "Freelance|";
+}
+55%{
+    content: "Freelancer|";
+}
+56.25%{
+    content: "Freelance|";
+}
+57.5%{
+    content: "Freelanc|";
+}
+58.75%{
+    content: "Freelan|";
+}
+60%{
+    content: "Freela";
+}
+
+61.25%{
+    content: "Freel|";
+}
+62.5%{
+    content: "Free|";
+}
+63.75%{
+    content: "Fre|";
+}
+65%{
+    content: "Fr|";
+}
+66.25%{
+    content: "F|";
+}
+67.5%{
+    content: "|";
+}
+68.75%{
+    content: "P|";
+}
+70%{
+    content: "Ph|";
+}
+71.25%{
+    content: "Pho|";
+}
+72.5%{
+    content: "Phot|";
+}
+73.75%{
+    content: "Photo|";
+}
+75%{
+    content: "Photog|";
+}
+76.25%{
+    content: "Photogr|";
+}
+77.5%{
+    content: "Photogra|";
+}
+78.75%{
+    content: "Photograf|";
+}
+80%{
+    content: "Photografe|";
+}
+81.25%{
+    content: "Photografer|";
+}
+82.5%{
+    content: "Photografe|";
+}
+83.75%{
+    content: "Photograf|";
+}
+85%{
+    content: "Photogra|";
+}
+86.25%{
+    content: "Photogr|";
+}
+87.5%{
+    content: "Photog|";
+}
+88.75%{
+    content: "Photo|";
+}
+90%{
+    content: "Phot|";
+}
+91.25%{
+    content: "Pho|";
+}
+93%{
+    content: "Ph|";
+}
+95%{
+    content: "P|";
+}
+100%{
+    content:"|"
+}
+
+}
+.w-85{
+    width: 85%;
+}
+.w-90{
+    width: 90%;
+}
+.circle{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+border: 8px solid #024CAA;
+
+}
+.circle:hover{
+    background-color: #024CAA;
+    border: 8px solid #F6F5F2
+}
+.icons {
+background-image:linear-gradient(rgba(0,120, 255, 0.7) 90% ,white 10%), url("../image/post-3.jpg");
+background-attachment: fixed;
+
+
+width: 100%;
+height: 700px;
+
+}
+.testemonial{
+    background-image:linear-gradient(rgba(0,120, 255, 0.7) 90% ,white 10%), url("../image/post-3.jpg");
+    background-attachment: fixed;
+    width: 100%;
+    height: 700px;
+}
+.contact{
+    background-image:linear-gradient(rgba(0,120, 255, 0.7) 90% ,white 10%), url("../image/post-3.jpg");
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+.hov:hover .imhov{
+    transform: scale(1.2);
+    transition: all 1s;
+}
+.hov{
+    overflow: hidden;
+}
+.Iimag{
+
+}
+.imag{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.carousel-indicators [data-bs-target]{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    text-indent: unset;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+}
+.im{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.tran{
+position: relative;
+}
+.but{
+    width: 70px;
+    height: 30px;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top:53%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
